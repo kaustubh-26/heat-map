@@ -1,0 +1,35 @@
+.chart-container {
+  @apply m-auto block justify-center block;
+}
+
+#title {
+    @apply text-[24px] font-semibold block;
+}
+
+#description {
+    @apply text-[18px] mb-[19px];
+}
+
+#legend {
+  @apply mt-14;
+}
+
+.row {
+  @apply m-auto block;
+}
+
+.content {
+  @apply m-auto flex justify-center;
+}
+
+#tooltip {
+  @apply bg-gray-800 text-white rounded-lg w-[140px] h-[80px] absolute;
+}
+
+.cell {
+  @apply stroke-none transition-all duration-200 ease-in-out;
+}
+
+.cell:hover {
+  @apply stroke-current stroke-2
+}
